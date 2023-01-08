@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: fixed;
+
+}
+
+.left{
+    width: 65rem;
+    z-index: 1;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'DM Serif Display', serif;
+}
+li{
+    color: #fcf5eb;
+    font-size: 18px;
+    display: inline;
+    margin-left: 3rem;   
+}
+
+.header ul{
+    list-style-type: none;
+    margin-top: 3rem;
+    background-color: #fdede8;
+    margin-left: 18rem;
+    padding: .5rem 0.5rem;
+    z-index: 2;
+    position: absolute;
+    border-radius: 18px;
+    width: 60rem;
+    
+}
+.right{
+    width: 31rem;
+    background-color: #fcf5eb;
+    z-index: 1;
+}
+
+.rules img{
+    cursor: pointer;
+}
+
+.circle{
+    border-radius: 100%;
+    padding: 5px;
+}
+.close{
+    margin-left: -3rem;
+}
+.nst{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    
+}
+.name{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 6.3rem;
+    font-size: 45px;
+    margin-top: -1rem;
+    letter-spacing: 4.5px;
+}
+.normal{
+    font-weight: lighter;
+}
+.sub{
+    font-size: 15px;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    margin-left: 6.5rem;
+    letter-spacing: 2px;
+
+}
+
+.subsub{
+    margin-left: 6.5rem;
+    width: 30rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subleft{
+    margin-right: 33rem;
+    margin-top: 5rem;
+    height: 42rem;
+}
+
+.team{
+    margin-left: 6rem;;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    padding-right: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.bold{
+    font-weight: bold;
+}
+.prize{
+    margin-left: 6rem;;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.theme{
+    margin-left: 6rem;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.timing{
+    margin-left: 6rem;
+    color: white;
+    display: flex;
+    margin-top: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.rules{
+    margin-left: 6rem;
+    color: white;
+    display: flex;
+    margin-top: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.subright{
+    margin-top: 5rem;
+    margin-left: -5rem;
+}
+.nritya{
+    margin-top: 1.1rem;
+    margin-left: -25rem;
+}
+.small{
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+}
+.time{
+    display: flex;
+    margin-left: -23rem;
+    margin-top: 0rem;
+}
+
+.lowertt{
+    color: white;
+    font-size: 10px;
+    width: 20rem;
+    margin-top: 0.8rem;
+    margin-left: -23rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+.white{
+    
+    height: 4rem;
+    width: 4rem;
+    margin-right: 0.5rem;
+    font-size: 45px;
+    
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+}
+.letter{
+    letter-spacing: 5px;
+}
+.purple{
+    
+    height: 4rem;
+    width: 4rem;
+    margin-right: 0.5rem;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+}
+.day{
+    font-family: 'Michroma', sans-serif;
+    color: #fcf5eb;
+    margin-top: 0.3rem;
+    font-size: 8px;
+    margin-left: 1rem;
+}
+
+
+.hour{
+    font-family: 'Michroma', sans-serif;
+    color: #fcf5eb;
+    margin-top: 0.3rem;
+    font-size: 8px;
+    margin-left: .8rem;
+}
+
+.minute{
+    font-family: 'Michroma', sans-serif;
+    color: #fcf5eb;
+    margin-top: 0.3rem;
+    font-size: 8px;
+    margin-left: 1.1rem;
+}
+
+.second{
+    font-family: 'Michroma', sans-serif;
+    color: #fcf5eb;
+    margin-top: 0.3rem;
+    font-size: 8px;
+    margin-left: 0.1rem;
+}
+.michroma{
+    font-family: 'Michroma', sans-serif;
+}
+.top{
+    padding-top: 10rem;
+    margin:auto;
+    text-align: center;
+    width: 20rem;
+    padding-bottom: 7rem;
+}
+.greet{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+.btn{
+    border-radius: 25px;
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 1px;
+    background-color: #fcf5eb;
+    font-size: 15px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1.5rem;
+}
+.tt{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.cone{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+.contact{
+    padding-right: 0.5rem;
+}
+
+.cname1{
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.cname2{
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.cno{
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.ttright{
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.tttright{
+    font-family: 'Michroma', sans-serif;
+    font-size: 18px;
+    
+}
+.smalltt{
+    margin-left: 7rem;
+    font-size: 12px;
+    width: 15rem;
+    text-align: right;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.nrityakala{
+    display: flex;
+}

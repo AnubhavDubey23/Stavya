@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMKOC Quiz || Home Page</title>
+    <link rel="stylesheet" href="css/Allhome.css" />
+    <style>
+      .left {
+        background-color: #346e8b;
+      }
+      a {
+        color: #346e8b;
+      }
+      .header ul {
+        box-shadow: 4px 4px  #a2cee4;
+      }
+      .circle {
+        border: 1px solid #346e8b;
+        color: #346e8b;
+      }
+      .white {
+        color: white;
+        background-color: #5699bb;
+      }
+      .purple {
+        background-color: #3c819b;
+        color: white;
+      }
+      .greet {
+        color: #346e8b;
+      }
+      .btn {
+        border: 1px solid #346e8b;
+        color: #346e8b;
+      }
+      .tt {
+        color: #346e8b;
+      }
+      .cone {
+        color: #346e8b;
+      }
+      .ttright {
+        color: #346e8b;
+        margin-top: -1rem;
+        margin-left: 4.4rem;
+      }
+      .tttright {
+        color: #346e8b;
+        margin-left: 14rem;
+      }
+      .smalltt {
+        color: #346e8b;
+      }
+      .cname1 {
+        margin-left: 1.9rem;
+      }
+      .cname2 {
+        margin-left: 3.1rem;
+      }
+      .cno {
+        margin-left: 1.6rem;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="nrityakala">
+        <div class="header">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cultural Events</a></li>
+            <li><a href="#">Literary Events</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About us</a></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user circle"></i></a>
+            </li>
+            <li><a href="#" class="close">Avichal</a></li>
+          </ul>
+        </div>
+        <div class="left">
+          <div class="subleft">
+            <img src="images/tmkoc_crown.png" alt="" height="80px" class="nst" />
+            <h2 class="name">TMKOC</h2>
+            <h6 class="sub">
+              <span class="normal">Tarak Mehta Ka Ooltah Chasmah </span> <span class="bold">Quiz</span>
+            </h6>
+            <p class="subsub">
+              Taarak Mehta Ka Ooltah Chashmah (transl. Taarak Mehta's inverted spectacles) is an Indian sitcom based on the weekly column "Duniya Ne Undha Chasma" by Taarak Mehta in Chitralekha magazine. It is produced by Asit Kumar Modi. So here we are with this quiz event based on nitty-gritties of TMKOC!
+            </p>
+            <div class="team">
+              <img src="images/tmkoc_team.png" alt="" height="40px" width="40px" style="margin-left: 1rem;"/>
+              <p style="font-size: 16px; margin-left: 2rem; margin-top: 0.4rem">
+                team of <span class="bold">two</span>
+              </p>
+            </div>
+            <div class="prize">
+              <img src="images/tmkoc_prize.png" height="45px" alt="" srcset="" style="margin-left: 0.8rem;"/>
+              <p style="font-size: 16px; margin-left: 1.3rem; margin-top: 0.4rem">
+                Win prizes worth <span class="bold">₹3k</span>
+              </p>
+            </div>
+            <div class="theme">
+              <img src="images/tmkoc_themes.png" height="50px" alt="" srcset="" style="margin-left: 0.55rem;"/>
+              <p style="font-size: 16px; margin-left: 0.2rem; margin-top: 0.3rem">
+                <span class="bold">Two rounds</span> will be conducted
+              </p>
+            </div>
+            <div class="timing">
+              <img src="images/tmkoc_dhobi.png" height="45px" alt="" srcset="" style="margin-left: 1rem;" />
+              <p style="font-size: 16px; margin-left: 0.9rem; margin-top: 0.3rem">
+                Dhobi! Ab register krle XD <span class="bold"></span>
+              </p>
+            </div>
+            <div class="rules" style="margin-top: 1rem;">
+              <a href="telegram_rules.html"><img src="images/tmkoc_rules.png" height="65px" alt="" srcset="" style="margin-left: 1rem;"/></a>
+              <p
+                style="
+                  font-size: 12px;
+                  margin-left: 0.3rem;
+                  margin-top: 0.9rem;
+                  width: 15rem;
+                "
+              >
+                <span class="bold">Tap on arrow</span> to know all the rules and
+                regulations of the Telegram
+              </p>
+            </div>
+          </div>
+          <div class="subright">
+            <img src="images/tmkoc.png" alt="" class="nritya" height="420px" style="margin-top: 4rem; margin-left: -28rem;"/>
+            <h3 class="lowertt michroma letter">TIME LEFT to register</h3>
+            <div class="time">
+              <div class="">
+                <p class="white" id="d">09</p>
+                <p class="day">DAYS</p>
+              </div>
+              <div class="">
+                <p class="purple" id="h">11</p>
+                <p class="hour">HOURS</p>
+              </div>
+              <div class="">
+                <p class="purple" id="m">11</p>
+                <p class="minute">MIN</p>
+              </div>
+              <div class="">
+                <p class="purple" id="s">11</p>
+                <p class="second">SECONDS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <p class="greet">Hey <%=loginUserName%>,</p>
+            <form action="/register" method="post">
+              <!-- <button type="submit" class="btn">
+                Register <span class="bold">in TMKOC Quiz</span>
+              </button> -->
+              <a href="tmkoc_registration">Register <span class="bold">in TMKOC Quiz</span></a>
+            </form>
+            
+            <p class="tt">we got limited participation policy too.</p>
+            <p class="tt">Register now to save your seat fast!</p>
+          </div>
+          <h6 class="ttright">TMKOC Quiz</h6>
+          <p class="tttright">Convenors</p>
+          <p class="smalltt">
+            Feel free to reach out to them,
+            <span class="bold">click on Whatsapp</span> icon to initiate the
+            chat window!
+          </p>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname1 bold">Vartul Shrivastava</p>
+              <p class="cno bold">+91-9669691984
+              </p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname2 bold">Anubhav Dubey</p>
+              <p class="cno bold">+91-7395074904</p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d0651fd824.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var countDownDate = new Date("Jan 25, 2023 23:59:59").getTime();
+    var x = setInterval(function () {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("d").innerHTML = days;
+      document.getElementById("h").innerHTML = hours;
+      document.getElementById("m").innerHTML = minutes;
+      document.getElementById("s").innerHTML = seconds;
+    }, 1000);
+  </script>
+</html>

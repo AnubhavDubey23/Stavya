@@ -1,0 +1,611 @@
+.home {
+  display: inline;
+}
+
+body {
+  overflow: hidden;
+  /* background-color: #BA4B2F; */
+  background-color: #FCF5EB;
+}
+
+
+a {
+  text-decoration: none;
+}
+.leftContainerHome {
+  position: absolute;
+  display: contents;
+  float: left;
+  background-color: #FCF5EB;
+  width: 10rem;
+  
+}
+
+.welcomeH {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+  margin-top: 14rem;
+  margin-bottom: auto;
+}
+.welcomeP {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.88em;
+  margin-top: auto;
+  margin-bottom: 1em;
+  margin-left: 50em;
+  width: 30em;
+  float: right;
+}
+
+.instLogoWhite{
+  width: 5.5em;
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+}
+
+
+.intro {
+  display: inline;
+  float: right;
+  color: #FCF5EB;
+  background-color: #BA4B2F;
+  /* padding-left: 2rem; */
+  /* margin-right: 0rem; */
+  text-align: right;
+  width: 50em;
+  word-wrap: break-word;
+  /* margin-top: 0.5em; */
+  /* padding-right: 3em; */
+  /* padding-top: 0rem; */
+  padding: 1rem 3rem 2rem 2rem;
+  margin: -1rem;
+}
+
+.lm {
+  text-decoration: none;
+  text-align: center;
+  color: #FCF5EB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 0.6em;
+  border: 2px #FCF5EB solid;
+  border-radius: 2em;
+  padding:  9px 18px ;
+  float: right;
+  display: inline;
+}
+
+.loginContainer {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 600;    
+  letter-spacing: 0.35em;
+  margin-top: 8.5em;
+  margin-left: 0.5rem;
+  /* width: 27em; */
+  /* border-bottom: 1px solid #FCF5EB; */
+}
+
+.loginContainer a{
+  color: #FCF5EB;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  letter-spacing: 0.1rem;
+}
+
+.loginContainer h4{
+  letter-spacing: 0rem;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+.googleHome img {
+  width: 2rem;
+}
+
+.googleHome {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;    
+  width: 11rem;
+  border-radius: 25px;
+  background-color: #FCF5EB;
+  border: 1px solid #BA4B2F;
+  margin-top: -0.9rem;
+  height: 2rem;
+}
+
+.googleHome a {
+  color: #BA4B2F;
+  margin-top: 0.3rem;
+}
+
+.homeBottom {
+  display: flex;
+}
+
+.homeBottom p{
+  /* display: ; */
+  width: 14rem;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  margin-top: -1rem;
+  margin-left: 0.4rem;
+}
+
+.hashTags {
+  margin-top: 4.5rem;
+  font-family: 'Michroma', sans-serif;
+  font-size: 0.5em;
+  float: left;
+  text-align: left;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  font-weight: bolder;
+  padding-top: -2em;
+  color: #fcf5eb66;
+}
+
+.lcdc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  width: 19em;
+  text-align: left;
+  letter-spacing: 0.2em;
+  /* display: inline; */
+  float: left;
+  margin-top: 0rem;
+  margin-left: 0.3rem;
+}
+
+.containerLcdc {
+  display: flex;
+}
+
+.containerLcdcLeft {
+  display: block;
+  width: 90em;
+  margin-top: 5rem;
+}
+
+.containerLcdcRight {
+  display: inline;
+  margin-left: 27em;
+  margin-top: 4em;
+  float: right;
+  width: 20em;
+}
+
+.intLogoRed {
+  float: right;
+  margin-right: 2em;
+  width: 5em;
+  
+}
+
+.navBar {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.3em;
+  color: #FCF5EB;
+  border-bottom: 1px solid #FCF5EB;
+  padding-bottom: 0.4em;
+  margin-left: 2em;
+  margin-top: 1.5em;
+}
+
+.nav {
+  text-decoration: none;
+  color: #FCF5EB;
+  font-weight: bold;
+}
+
+
+.arrow {
+  width: 1.5em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
+}
+
+.culturalContainerLcdc {
+  display: inline-block;
+  width: 18em;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.literatureContainerLcdc {
+  display: inline-block;
+  float: right;
+  width: 18em;
+  margin-right:-9em;
+  margin-top: 1em;
+  /* margin-left: 4em; */
+}
+
+.culEvent {
+  float: right;
+  width: 20em;
+  margin-bottom: -1.2em;
+  margin-top: -2rem;
+}
+
+.litEvent {
+  margin-top: 13em;
+  position: relative;
+  float: right;
+  width: 20em;
+  margin-bottom: -1.2em;
+}
+
+.km-cult, .km-lit {
+  text-decoration: none;
+  text-align: center;
+  color: #FCF5EB;
+  /* background-color: #AD2727; */
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: lighter;
+  font-size: 0.85em;
+  letter-spacing: 0.2em;
+  border: 1px #FCF5EB solid;
+  border-radius: 2em;
+  padding:  10px 30px ;
+  float: right;
+  display: inline;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.culDescription {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+  color: #FCF5EB;
+}
+
+.litDescription {
+  float: right;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+  color: #FCF5EB;
+  /* padding-bottom: 3em; */
+}
+
+.socialMedia {
+  display: inline;
+  float: right;
+  margin-top: 22em;
+  margin-right: 3em;
+}
+
+.icons {
+  display: flex;
+  float: right;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.literatureMail, .culturalMail {
+  float: right;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  color: #AD2727;
+}
+
+.containerCulturalEventLeft {
+  /* width: 90em; */
+  display: inline;
+}
+.CulturalEventDetail {
+  display: flex;
+  /* width: 20em; */
+}
+
+
+.LiteratureEventLogo {
+  margin-left: 2em;
+  margin-right: 1em;
+  width: 3em;
+}
+
+.LiteratureClubName {
+  font-family: 'DM Serif Display', serif;
+  color: #FCF5EB;
+  font-size: 1.8em;
+  letter-spacing: 0.04em;
+  margin-top: 0.3em;
+}
+
+.CulturalEventBox {
+  border: 1px solid #FCF5EB;
+  border-radius: 20px;
+  padding: 0.2em 1em;
+  width: 20em;
+  margin: 0.5em;
+  margin-left: 2em;
+  transition: transform .5s;
+}
+
+.LiteratureEventBox {
+  display: inline-flex;
+  border: 1px solid #FCF5EB;
+  border-radius: 20px;
+  padding: 1em 0em;
+  width: 22em;
+  margin: 0.8em;
+  margin-left: 2em;
+  transition: transform .5s;
+}
+
+.CulturalClubName {
+  font-family: 'DM Serif Display', serif;
+  color: #FCF5EB;
+  font-size: 1.8em;
+  letter-spacing: 0.04em;
+}
+
+.CulturalClub {
+  text-transform: uppercase;
+}
+
+.CulturalClub, .LiteratureClub {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #FCF5EB;
+  font-size: 0.8em;
+  font-weight: lighter;
+  margin-top: -1.4em;
+  letter-spacing: 0.05em;
+}
+
+.CulturalEventLogo {
+  margin-top: 1em;
+  margin-bottom: -2em;
+}
+
+.CulturalEventDes {
+  margin-left: 3em;
+  width: 29em;
+  color: #FCF5EB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+
+.containerCulturalEvent {
+  display: flex;
+}
+
+.containerCulturalRight {
+  display: inline;
+  margin-top: 4em;
+  float: right;
+  width: 20em;
+}
+
+.CulturalBrochures {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  color: #FCF5EB;
+  border-bottom: 2px solid #fcf5eb89;
+  padding: 0em 1em 0em 0.2em;
+  margin: auto;
+  
+}
+
+.CulturalBrochures img{
+  width: 1.3em;
+  margin-right: 0.5em;
+  margin-bottom: -0.6em;
+}
+
+.CulturalBrochures h3 {
+  margin-bottom: 0.5em;
+}
+.CulturalToLit {
+  font-family: 'Open Sans', sans-serif;
+  color: #FCF5EB;
+  font-size: 0.55em;
+  letter-spacing: 0.2em;
+  display: inline-flex;
+  /* font-weight: 300; */
+}
+.CulturalToLit img {
+  margin: -2em 1em;
+}
+
+.CulturalEndNote {
+  margin-left: 11em;
+}
+
+.CulturalLitNote {
+  font-family: 'Open Sans', sans-serif;
+  color: #FCF5EB;
+  font-size: 1.2em;
+  margin-top: -0.4em;
+  letter-spacing: 0.04em;
+}
+
+.designCourtesy {
+  font-family: 'Open Sans', sans-serif;
+  color: #AD2727;
+  font-size: 0.35em;
+  text-align: center;
+  letter-spacing: 1.5em;
+  background-color: #FCF5EB;
+  padding: 0.2em;
+  width: 100%;
+  margin-top: 2em;
+  margin-left: -2em;
+  margin-right: -2em;
+  position: absolute;
+  bottom: 0;
+}
+
+.km-cult:hover, .CulturalEventBox:hover {
+  transition: transform 2s;
+  transform: scale(1.1);
+  border: 2px solid #fcf5ebc1;
+  background: linear-gradient(200deg,#8b1212, #951414, #ae1717, #AD2727, #960f0f);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+
+.km-lit:hover, .LiteratureEventBox:hover {
+  transition: transform 2s;
+  transform: scale(1.1);
+  border: 2px solid #fcf5ebc1;
+  background: linear-gradient(200deg, #ac0f38, #98092e, #af294d, #95082e);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+.lm:hover{
+  transition: transform 2s;
+  transform: scale(1.1);
+  border: 2px solid #fcf5ebc1;
+  background: linear-gradient(200deg, #a32b0c, #af3618, #BA4B2F, #982e13);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+.nav:hover{
+  transition: transform 0.5s;
+  transform: scale(0.92);
+  color: #fcf5eb7b;
+}
+
+.arrow:hover {
+  transition: transform 0.5s;
+  transform: scale(1.2);
+  color: #fcf5eb7b;
+}
+/* 
+div .header {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+
+.header  {
+  justify-items: center !important;
+  justify-content: center !important;
+  /* list-style-type: none; */
+  margin-top: 1rem;
+  background-color: #FCF5EB;
+  border: 1px solid #9F7247;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  position: absolute;
+  left: 11rem;
+  /* float: inline-start; */
+  margin-right: auto;
+  padding: 0.5rem 3rem;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 4px 4px #E1BB83;
+}
+
+.header a {
+  text-decoration: none;
+  color: #9F7247;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  /* color: #9F7247; */
+  font-size: 1rem;
+  display: inline;
+  padding: 0rem 1rem;
+  /* margin-left: 1.5rem; */
+  /* margin-right: 1.5rem; */
+}
+
+.header img {
+  margin: -0.65rem auto;
+  margin-right: -1rem;
+  margin-left: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+select {
+  background-color: transparent;
+  color: #9F7247;
+  border: none;
+  display: inline-block;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0em 0.1em;
+  margin: 0rem 0.5rem;
+}
+
+option {
+  background-color: #FCF5EB;
+  color: #BA4B2F;   
+
+}
+
+.loginPageContainer {
+  display: flex;
+}
+
+.leftLoginPage {
+  background-color: #BA4B2F;
+}
+
+.rightLoginPage {
+  display: flex;
+  margin-top: 5rem;
+  color: #BA4B2F;
+}
+
+.rightLoginPage h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+}
+
+.rightLoginPage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: fixed;
+    background-color: #fcf5eb;
+}
+.whole{
+    margin-top: 3.5rem;
+    margin-left: 8rem;
+    box-shadow: 6px 6px 5px rgb(212, 193, 177);
+}
+.left{
+    width: 54rem;
+    height: 39rem;
+    background-color:  #af294d;
+    z-index: 1;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:  #af294d;
+    font-size: 18px;
+    font-family: 'DM Serif Display', serif;
+}
+li{
+    color: #fcf5eb;
+    font-size: 18px;
+    display: inline;
+    margin-left: 3rem;
+    
+}
+.header ul{
+    list-style-type: none;
+    margin-top: 2.5rem;
+    background-color: #fdede8;
+    margin-left: 8rem;
+    padding: .5rem 0.5rem;
+    z-index: 2;
+    position: absolute;
+    border-radius: 18px;
+    width: 60rem;
+    box-shadow: 4px 4px  #ff8dab;
+}
+.right{
+    width: 24rem;
+    height: 39rem;
+    background-color: #fcf5eb;
+    z-index: 1;
+}
+.circle{
+    border-radius: 100%;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+}
+.close{
+    margin-left: -2rem;
+}
+.nst{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    
+}
+.name{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 3.8rem;
+    font-size: 40px;
+    margin-top: -1rem;
+    letter-spacing: 4.5px;
+}
+.normal{
+    font-weight: lighter;
+}
+.sub{
+    font-size: 13px;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    margin-left: 3.8rem;
+    letter-spacing: 2px;
+
+}
+.dance{
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.subsub{
+    margin-left: 3.8rem;
+    width: 22rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subleft{
+    margin-right: 33rem;
+    margin-top: 5rem;
+    height: 39rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+.home{
+    margin-left: 3.5rem;
+    color: white;
+    display: flex;
+    margin-top: 4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.subright{
+    margin-top: 12vh;
+    margin-left: -29vw;
+    width: 32vw;
+}
+.subright p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 1.2rem;
+    color: white;
+}
+
+
+.letter{
+    letter-spacing: 5px;
+}
+
+.michroma{
+    font-family: 'Michroma', sans-serif;
+}
+.top{
+    padding-top: 9rem;
+    margin:auto;
+    text-align: center;
+    width: 15rem;
+    padding-bottom: 7rem;
+}
+.greet{
+    color:  #be1e2d;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+.btn{
+    border: 1px solid  #af294d;
+    border-radius: 18px;
+    font-family: 'Michroma', sans-serif;
+    color:  #be1e2d;
+    letter-spacing: 1px;
+    background-color: #fcf5eb;
+    font-size: 13px;
+    padding: 0.8rem 0.3rem;
+    margin-bottom: 1.5rem;
+}
+.tt{
+    color:  #be1e2d;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.cone{
+    display: flex;
+    color:  #be1e2d;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.contact{
+    padding-right: 0.3rem;
+}
+
+.cname{
+    letter-spacing: 1px;
+}
+.cno{
+    letter-spacing: 1px;
+}
+.ttright{
+    font-family: 'Michroma', sans-serif;
+    margin-top: -3rem;
+    margin-left: 9rem;
+    font-size: 20px;
+    color:#be1e2d;
+    letter-spacing: 1.5px;
+}
+
+.tttright{
+    font-family: 'Michroma', sans-serif;
+    margin-left: 11.5rem;
+    font-size: 15px;
+    color:  #be1e2d;
+}
+
+.smalltt{
+    color:  #be1e2d;
+    margin-left: 8rem;
+    font-size: 10px;
+    width: 10rem;
+    text-align: right;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.nrityakala{
+    display: flex;
+}

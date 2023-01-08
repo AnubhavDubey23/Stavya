@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: fixed;
+    background-color: #fcf5eb;
+}
+.whole{
+    margin-top: 8vh;
+    margin-left: 7vw;
+    box-shadow: 6px 6px 5px rgb(212, 193, 177);
+}
+.top{
+    width: 86vw;
+    height: 30vh;
+    background-color: #7b2e76;
+}
+.header{
+    padding-top: 5vh;
+    display: flex;
+    padding-left: 2.5vw;
+    
+}
+a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fcf5eb;
+    font-size: 14.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header ul{
+    list-style-type: none;
+    
+}
+li{
+    color: #fcf5eb;
+    font-size: 14.5px;
+    display: inline;
+    margin-left: 1vw;
+}
+.shift{
+    margin-top: -2vh;
+    margin-right: -1vw;
+}
+
+.nst{
+    margin-left: 12vw;
+}
+.name{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 4.7vw;
+    font-size: 30px;
+    margin-top: -3vh;
+    letter-spacing: 3px;
+}
+.lowertt{
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 14vw;
+    margin-top: -1vh;
+}
+.lowerttt{
+    color: lightgrey;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 17.2vw;
+    margin-top: -1vh;
+}
+.dance{
+    margin-left: 60vw;
+    margin-top: -20.3vh;
+}
+.middle{
+    height: 50vh;
+    width: 40vw;
+    padding-left: 5vw;
+    color: #7b2e76;
+}
+.middle img{
+    margin-top: 2vh;
+}
+.uppertt{
+    color: #7b2e76;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.brochure{
+    display: flex;
+    margin-top: 1vh;
+}
+.sidet{
+    margin-left: 0.5vw;
+    width: 66%;
+}
+.upperttt{
+    margin-top: 1vh;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.low{
+    margin-top: 1vh;
+}
+.footer{
+    background-color: #fcf5eb;
+    height: 2vh;
+    font-size: 11px;
+    color: #7b2e76;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: -5vh;
+}

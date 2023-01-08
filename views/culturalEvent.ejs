@@ -1,0 +1,88 @@
+<%- include('partials/header') %>
+
+<% if(loginUserName != "Log in"){ %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" ><%=loginUserName%></a>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.7rem;" href="/logout" role="button">Log Out</a>
+<% } else { %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+<% } %>
+
+    </div>
+
+<div class="containerCulturalEvent">
+    <div class="containerLcdcLeft">
+        <div class="CulturalEventDetail">
+            <a href="nrityakala_home" class="CulturalEventBox">
+                <img class="CulturalEventLogo" src="images/nrityakala.svg" alt="">
+                <h1 class="CulturalClubName">Nrityakala</h1>
+                <h3 class="CulturalClub">Group  Dance Competition</h3>
+            </a>
+            <a href="tmkoc_home" class="CulturalEventBox">
+                <img class="CulturalEventLogo"  src="images/quiz.svg" alt="">
+                <h1 class="CulturalClubName">TMKOC Quiz</h1>
+                <h3 class="CulturalClub">Fun Event</h3>
+            </a>
+        </div>
+        <div class="CulturalEventDetail">
+            <a href="pixellence_home" class="CulturalEventBox">
+                <img style="margin-bottom: -2em;" src="images/pixellence.svg" alt="">
+                <h1 class="CulturalClubName">Pixellence</h1>
+                <h3 class="CulturalClub">Photography Contest</h3>
+            </a>
+            <a href="foff_home" class="CulturalEventBox">
+                <img class="CulturalEventLogo"  src="images/quiz.svg" alt="">
+                <h1 style="font-size: 1.3em; margin-bottom: 1.2em;" class="CulturalClubName">The Office & F.R.I.E.N.D.S Quiz</h1>
+                <h3 class="CulturalClub">Fun Event</h3>
+            </a>
+        </div>
+        <div class="CulturalEventDetail">
+            <a href="https://avichal02.github.io/stavya2k23.github.io/" class="CulturalEventBox">
+                <img class="CulturalEventLogo"  src="images/antakshari.svg" alt="">
+                <h1 class="CulturalClubName">Antakshari</h1>
+                <h3 class="CulturalClub">Musical Battle</h3>
+            </a>
+            <p class="CulturalEventDes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            
+        </div>
+        <div class="CulturalEventDetail">
+            <a href="chitrakala_home" class="CulturalEventBox">
+                <img class="CulturalEventLogo"  src="images/chitrakala.svg" alt="">
+                <h1 class="CulturalClubName">Chitrakala</h1>
+                <h3 class="CulturalClub">Photography Contest</h3>
+            </a>
+            <div class="CulturalEndNote">
+                <a href="https://drive.google.com/drive/folders/1E0qy4ZYqudSi9wh1t1VC_Eexs5i793xu?usp=sharing" class="CulturalBrochures">
+                    <img src="images/downloadIcon.svg" alt="">
+                    <h3>Stavya <span style="font-weight: 300;">Brochure</span></h3>                    
+                </a>
+                <a href="literatureEvent" class="CulturalToLit">
+                    <h1><span style="font-weight: 300;">Wait, we have</span></h1>
+                    <img src="images/cultToLit.svg" alt="">
+                </a>
+                <a href="literatureEvent"><h1 class="CulturalLitNote">literary events <span style="font-weight: 300;">too..</span></h1></a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="containerCulturalRight">
+        <div class="logo">
+            <img src="images/instLogoRed.svg" alt="" class="intLogoRed">
+        </div>
+        <div class="socialMedia">
+            <div class="icons">
+                <img src="images/phone.svg" alt="">
+                <img src="images/message.svg" alt="">
+                <img src="images/insta.svg" alt="">
+            </div>
+            <div class="mail">
+                <a class="culturalMail" href=""><span style="font-weight: 600;">cultural</span>@diu.iiitvadodara.ac.in</a>
+                <a class="literatureMail" href=""><span style="font-weight: 600;">literaure</span>@diu.iiitvadodara.ac.in</a>
+            </div>
+        </div>
+    </div>
+</div>    <!-- <div class="designCourtesy">
+        <h1><span style="font-weight: 300;">Website dsigned & developed by</span> Vartul Shrivastava, Avichal Bansal & Ashish Gupta<span style="font-weight: 300;"> with ❤️</span></h1>
+    </div> -->
+
+    
+    <%- include('partials/footer') %>

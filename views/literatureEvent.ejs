@@ -1,0 +1,95 @@
+<%- include('partials/header') %>
+
+<% if(loginUserName != "Log in"){ %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" ><%=loginUserName%></a>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.7rem;" href="/logout" role="button">Log Out</a>
+<% } else { %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+<% } %>
+
+    </div>
+
+    <div class="containerCulturalEvent">
+        <div class="containerLcdcLeft">
+            <div class="CulturalEventDetail">
+                <a href="debate_home" class="LiteratureEventBox">
+                    <img class="LiteratureEventLogo" src="images/debate.svg" alt="">
+                    <div class="LiteratureEventName">
+                        <h1 class="LiteratureClubName">Debate</h1>
+                        <h3 class="LiteratureClub">Competition</h3>
+                    </div>
+                </a>
+                <a href="telegram_home" class="LiteratureEventBox">
+                    <img class="LiteratureEventLogo"  src="images/telegram.svg" alt="">
+                    <div class="LiteratureEventName">
+                        <h1 class="LiteratureClubName">Telegram</h1>
+                        <h3 class="LiteratureClub">Writing Competition</h3>
+                    </div>                    
+                </a>
+            </div>
+            <div class="CulturalEventDetail">
+                <a href="poetry_home" class="LiteratureEventBox">
+                    <img style="width: 4em; margin-left: 1.5em;" src="images/poetry.svg" alt="">
+                    <div class="LiteratureEventName">
+                        <h1 class="LiteratureClubName">Poetry</h1>
+                        <h3 class="LiteratureClub">Writing Competition</h3>
+                    </div>                    
+                </a>
+                <a href="shaswat_home" class="LiteratureEventBox">
+                    <img class="LiteratureEventLogo"  src="images/shashwat.svg" alt="">
+                    <div class="LiteratureEventName">
+                        <h1 class="LiteratureClubName">Shashwat</h1>
+                        <h3 class="LiteratureClub">Mythology Quiz</h3>
+                    </div>                    
+                </a>
+            </div>
+            <div class="CulturalEventDetail">
+                <a href="om_home" class="LiteratureEventBox">
+                    <img class="LiteratureEventLogo"  src="images/openmic.svg" alt="">
+                    <div class="LiteratureEventName">
+                        <h1 class="LiteratureClubName">Open Mic</h1>
+                        <h3 class="LiteratureClub">its mic and you!</h3>
+                    </div>
+                    
+                </a>
+                <p class="CulturalEventDes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                
+            </div>
+            <div class="CulturalEventDetail">
+                <p class="CulturalEventDes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                <div class="CulturalEndNote">
+                    <a href="https://drive.google.com/drive/folders/1E0qy4ZYqudSi9wh1t1VC_Eexs5i793xu?usp=sharing" class="CulturalBrochures">
+                        <img src="images/downloadIcon.svg" alt="">
+                        <h3>Stavya <span style="font-weight: 300;">Brochure</span></h3>                    
+                    </a>
+                    <a href="culturalEvent" class="CulturalToLit">
+                        <h1><span style="font-weight: 300;">Wait, we have</span></h1>
+                        <img src="images/cultToLit.svg" alt="">
+                    </a>
+                    <a href="culturalEvent"><h1 class="CulturalLitNote">cultural events <span style="font-weight: 300;">too..</span></h1></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="containerCulturalRight">
+            <div class="logo">
+                <img src="images/instLogoRed.svg" alt="" class="intLogoRed">
+            </div>
+            <div class="socialMedia">
+                <div class="icons">
+                    <img src="images/phone.svg" alt="">
+                    <img src="images/message.svg" alt="">
+                    <img src="images/insta.svg" alt="">
+                </div>
+                <div class="mail">
+                    <a class="culturalMail" href=""><span style="font-weight: 600;">cultural</span>@diu.iiitvadodara.ac.in</a>
+                    <a class="literatureMail" href=""><span style="font-weight: 600;">literaure</span>@diu.iiitvadodara.ac.in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="designCourtesy">
+        <h1><span style="font-weight: 300;">Website designed & developed by</span> Vartul Shrivastava, Avichal Bansal & Ashish Gupta<span style="font-weight: 300;"> with ❤️</span></h1>
+    </div> -->
+
+    <%- include('partials/footer') %>

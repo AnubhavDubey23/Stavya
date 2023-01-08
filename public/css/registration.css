@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: fixed;
+    background-color: #fcf5eb;
+}
+.whole{
+    margin-top: 8vh;
+    margin-left: 7vw;
+    box-shadow: 6px 6px 5px rgb(212, 193, 177);
+}
+.top{
+    width: 86vw;
+    height: 30vh;
+    background-color: #7b2e76;
+}
+.header{
+    padding-top: 5vh;
+    display: flex;
+    padding-left: 2.5vw;
+    
+}
+a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fcf5eb;
+    font-size: 14.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header ul{
+    list-style-type: none;
+    
+}
+li{
+    color: #fcf5eb;
+    font-size: 14.5px;
+    display: inline;
+    margin-left: 1vw;
+}
+.shift{
+    margin-top: -2vh;
+    margin-right: -1vw;
+}
+
+.nst{
+    margin-left: 12vw;
+}
+.name{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 4.7vw;
+    font-size: 30px;
+    margin-top: -3vh;
+    letter-spacing: 3px;
+}
+.lowertt{
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 14vw;
+    margin-top: -1vh;
+}
+.lowerttt{
+    color: lightgrey;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 17.2vw;
+    margin-top: -1vh;
+}
+.dance{
+    margin-left: 60vw;
+    margin-top: -20.24vh;
+}
+.bottom{
+    height: 40vh;
+    width: 86vw;
+    background-color: #fcf5eb;
+    display: flex;
+}
+.shiftf{
+    margin-left: 4.2vw ;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftform{
+    margin-top: 3vh;
+}
+.flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+.purple{
+    color: #72196c;
+    font-family: 'Michroma', sans-serif;
+    font-size: 12px;
+}
+.box{
+    background-color: #fef0e5;
+    border: 0.5px solid #7b2e76;
+    border-radius: 10px;
+}
+.rightform{
+    margin-top: 3vh;
+    margin-left: 10vw;
+}
+.submit{
+    margin-left: 16vw;
+}
+button{
+    margin-left: -3vw;
+    background-color: #72196c;
+    color: white;
+    border: 1px solid #72196c;
+    border-radius: 18px;
+    font-family: 'Michroma', sans-serif;
+    padding: 6px 20px;
+    box-shadow: 5px 5px 1px #bb5cb5;
+    margin-top: 32vh;
+}
+.line{
+    margin-left: 4.5vw;
+    width: 50%;
+    height: 2px;
+    border: none;
+    background-color: #72196c;
+    margin-top: 1.5vh;
+}
+.footer{
+    margin-top: 2vh;
+    height: 9vh;
+    width: 43vw;
+    margin-left: 4.4vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #7b2e76;
+    font-size: 12px;
+}
+.footerc{
+    background-color: #fcf5eb;
+    height: 2vh;
+    font-size: 11px;
+    color: #7b2e76;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}

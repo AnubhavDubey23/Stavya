@@ -1,0 +1,56 @@
+<%- include('partials/header') %>
+
+
+<% if(loginUserName != "Log in"){ %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.7rem;" href="/logout" role="button">Log Out</a>
+<% } else { %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+<% } %>
+    </div>
+
+    
+    <div class="intro">
+        <div class="hashTags">
+            <h2>#stavyaiiitvicd</h2>
+            <h2 style="font-size: 3em; line-height: 0em; color: #fcf5eb;" >#stavya2k23</h2>
+            <h2>#culturalFest</h2>
+            <h2>#nrityakala</h2>
+            <h2>#antakshadi</h2>
+            <h2>#pixellence</h2>
+            <h2>#openMic</h2>
+            <h2>#fun #onceinforall</h2>
+        </div>
+        <!-- <img src="images/instLogo.svg" alt="" class="instLogoWhite" > -->
+        
+        <h1 class="welcomeH">Welcome!</h1>
+        <p class="welcomeP">Become the part of Stavya. Participate in spectrum of cultural and literature events. Stavya is the first culto-lito fest organized by Student Gymkhana of IIITV-ICD. What are you waiting for?</p>
+        <br>
+        <a class="lm" href="lcdc">LEARN MORE</a>
+
+
+        <% if(loginUserName == "Log in"){ %>
+            <div class="loginContainer">
+                <a href="/login">Login</a>
+                <a href="/register">/Register</a>
+                <h4>or</h4>
+            </div>
+            <div class="homeBottom">
+                <div class="googleHome">
+                    <img src="images/googleIcon.svg" alt="">
+                    <a href="/auth/google" role="button">Sign-in with <span style="font-weight: 800;">Google</span></a>
+                </div>
+                <p>Use your Institute ID if you are from IIITV family to login from Google. </p>
+            </div>
+        <% } else {%>
+            <div style="margin-top: 14rem;"></div>
+        <% } %>
+        <h3 class="lcdc" >CULTURAL-LITERATURE<span style="font-weight: 300;"> FEST MMXXIII</span></h3>
+    </div>
+    <div class="leftContainerHome">
+        <img style="margin-left: -1rem; margin-top: 4rem; width: 30rem;" src="images/stavyaHomeLogo.svg" alt="">
+        <img style="margin-left: 4rem; margin-top: -3rem; width: 5rem; " src="images/instLogoRed.svg" alt=""  >
+    </div>
+
+    
+<%- include('partials/footer') %>

@@ -1,0 +1,163 @@
+<%- include('partials/eventsHeader') %>
+
+<% if(loginUserName != "Log in"){ %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.7rem;" href="/logout" role="button">Log Out</a>
+<% } else { %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+<% } %>
+    </div>
+
+    <div class="subleft">
+      <div class="topimg">
+        <img
+          src="images/chitrakala_crown.png"
+          alt=""
+          height="80px"
+          class="nst"
+        />
+        <img
+          src="images/chitrakala_hybrid.png"
+          alt=""
+          srcset=""
+          height="35px"
+          style="margin-left: 1rem"
+        />
+      </div>
+
+      <h2 class="name">Chitrakala</h2>
+      <h6 class="sub">Art<span class="normal"> Competition</span></h6>
+      <p class="subsub">
+        This is a theme-based painting event where participants have to
+        draw a painting based on the given themes. This competition will
+        be organized by Genesis Art Club. This will be an inter-institute
+        competition.
+      </p>
+      <div class="team">
+        <img
+          src="images/chitrakala_a3.png"
+          alt=""
+          height="40px"
+          width="40px"
+          style="margin-left: 0.1rem"
+        />
+        <p style="font-size: 16px; margin-left: 1vw; margin-top: 1vh">
+          <span class="bold">A3 Sheet </span>size artwork
+        </p>
+      </div>
+      <div class="prize">
+        <img
+          src="images/images/chitrakala_prize.png"
+          height="45px"
+          alt=""
+          srcset=""
+          style="margin-left: -0.2rem"
+        />
+        <p
+          style="font-size: 16px; margin-left: 0.7rem; margin-top: 0.3rem"
+        >
+          Win prizes worth <span class="bold">₹8.5k</span>
+        </p>
+      </div>
+      <div class="theme">
+        <img src="images/chitrakala_themes.png" height="40px" alt="" srcset="" />
+        <p
+          style="font-size: 16px; margin-left: 0.7rem; margin-top: 0.3rem"
+        >
+          <span class="bold">Themes :</span> Landscapes
+          <span style="text-decoration: underline">or</span> Warli Art
+        </p>
+      </div>
+      <div class="timing">
+        <img
+          src="images/chitrakala_polls.png"
+          height="50px"
+          alt=""
+          srcset=""
+          style="margin-left: -0.05rem"
+        />
+        <p
+          style="font-size: 16px; margin-left: 0.8rem; margin-top: 0.8rem"
+        >
+          Two separate prize pools for offline and online mode
+        </p>
+      </div>
+      <div class="rules">
+        <a href="chitrakala_rules.html"
+          ><img src="chitrakala_rules.png" height="55px" alt="" srcset=""
+        /></a>
+        <p
+          style="
+            font-size: 12px;
+            margin-left: 0.5rem;
+            margin-top: 0.5rem;
+            width: 15rem;
+          "
+        >
+          <span class="bold">Tap on arrow</span> to know all the rules and
+          regulations of the Chitrakala
+        </p>
+      </div>
+    </div>
+    <div class="subright">
+      <img src="images/chitrakala.png" alt="" class="nritya" height="480px" />
+      <h3 class="lowertt michroma letter">TIME LEFT to register</h3>
+      <div class="time">
+        <div class="">
+          <p class="white" id="d">09</p>
+          <p class="day">DAYS</p>
+        </div>
+        <div class="">
+          <p class="purple" id="h">11</p>
+          <p class="hour">HOURS</p>
+        </div>
+        <div class="">
+          <p class="purple" id="m">11</p>
+          <p class="minute">MIN</p>
+        </div>
+        <div class="">
+          <p class="purple" id="s">11</p>
+          <p class="second">SECONDS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="right">
+          <div class="top">
+            <p class="greet">Hey <%=loginUserName%>,</p>
+            <form action="" method="post">
+              <!-- <button type="submit" class="btn">
+                Register <span class="bold">in Chitrakala</span>
+              </button> -->
+              <a href="chitrakala_registration">Register <span class="bold">in Chitrakala</span></a>
+            </form>
+
+            <p class="tt">we got limited participation policy too.</p>
+            <p class="tt">Register now to save your seat fast!</p>
+          </div>
+          <h6 class="ttright">Chitrakala</h6>
+          <p class="tttright">Convenors</p>
+          <p class="smalltt">
+            Feel free to reach out to them,
+            <span class="bold">click on Whatsapp</span> icon to initiate the
+            chat window!
+          </p>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname1 bold">Rohit Khandal</p>
+              <p class="cno bold">+91-7665597882</p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname2 bold">Harsh Taunk</p>
+              <p class="cno bold">+91-7987970629</p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/eventsFooter') %>

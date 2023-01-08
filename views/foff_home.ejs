@@ -1,0 +1,77 @@
+<%- include('partials/eventsHeader') %>
+
+<% if(loginUserName != "Log in"){ %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.7rem;" href="/logout" role="button">Log Out</a>
+<% } else { %>
+    <a style=" font-family: 'Open Sans', sans-serif; font-size: 0.9rem;" href="login"><%=loginUserName%></a>
+<% } %>
+    </div>
+
+          <div class="subright">
+            <img src="images/foff.png" alt="" class="nritya" height="360px" />
+            <h3 class="lowertt michroma letter">TIME LEFT to register</h3>
+            <div class="time">
+              <div class="">
+                <p class="white" id="d">09</p>
+                <p class="day">DAYS</p>
+              </div>
+              <div class="">
+                <p class="purple" id="h">11</p>
+                <p class="hour">HOURS</p>
+              </div>
+              <div class="">
+                <p class="purple" id="m">11</p>
+                <p class="minute">MIN</p>
+              </div>
+              <div class="">
+                <p class="purple" id="s">11</p>
+                <p class="second">SECONDS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <p class="greet">Hey Avichal,</p>
+            <form action="/register" method="post">
+              <!-- <button type="submit" class="btn">
+                Register <span class="bold">in F.OFF Quiz</span>
+              </button> -->
+              <a href="foff_registration">Register <span class="bold">in FOFF</span></a>
+            </form>
+            
+            <p class="tt">we got limited participation policy too.</p>
+            <p class="tt">Register now to save your seat fast!</p>
+          </div>
+          <img src="images/foff_rlogo.png" alt="" srcset="" height="70px" class="ttright">
+          <p class="tttright">Convenors</p>
+          <p class="smalltt">
+            Feel free to reach out to them,
+            <span class="bold">click on Whatsapp</span> icon to initiate the
+            chat window!
+          </p>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname bold">Ashish Kumar Gupta</p>
+              <p class="cno bold">+91-74455967339</p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+          <div class="cone">
+            <div class="contact">
+              <p class="cname bold">Ashish Kumar Gupta</p>
+              <p class="cno bold">+91-74455967339</p>
+            </div>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d0651fd824.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="tmkoc_home.js"></script>
+</html>

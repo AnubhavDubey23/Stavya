@@ -42,7 +42,7 @@ const chitrakala_upload = multer({
     { name: 'chitrakalaSubmission2', maxCount: 1 }
   ])
 
-
+//Pixellence Photography
 const pixellence_upload = multer({
     storage,
     fileFilter: (req, file, cb) => {
